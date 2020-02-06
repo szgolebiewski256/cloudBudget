@@ -1,0 +1,137 @@
+$color-text-white: #fff;
+$color-text-black: #000;
+$color-text-orange: #ee3d1b;
+$color-text-pink: #d52047;
+$main-font: 'Lato';
+$bg-color-light: #fafafa;
+$color-read: #ED4C5C;
+
+@import "flexGrid";
+@import "nav";
+@import "features";
+@import "technology";
+@import "appDownload";
+@import "form";
+@import "buttons";
+
+/* BODY */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+*, body, html{
+  transition: all .3s;
+}
+body{
+  font-family: $main-font;
+  font-style: normal;
+  margin: 0;
+}
+
+/* MAIN */
+.fullwidth_section{
+  width: 100%;
+  height: 100%;
+}
+.bg-light{
+  background: $bg-color-light;
+}
+.bg-red{
+  background: $color-read;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.text-white{
+  color: #ffffff;
+}
+.pt-2{
+  padding-top: 2em;
+}
+.pt-4{
+  padding-top: 4em;
+}
+.pb-3{
+  padding-bottom: 3em;
+}
+
+/* SECTION TITLE */
+.section-title{
+  display: block;
+  text-align: center;
+  margin: 75px auto 30px;
+}
+.section-title_wrap{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 43px;
+}
+
+/* BANNER */
+.banner{
+  position: relative;
+  overflow: hidden;
+  background: #444;
+  color: #fff;
+  height: 100vh;
+  .banner_bg{
+    background-image: url("../../src/image/banner/photo-banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    .banner_tint{
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+      .banner_content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        letter-spacing: .6px;
+        .banner_title{
+          font-size: 50px;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+        .banner_desc{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .banner_title{
+    font-size: 100px !important;
+    margin-bottom: 0px;
+    margin-top: 100px;
+  }
+  .banner_desc{
+    font-size: 25px !important;
+    max-width: 650px;
+    margin: 50px auto 0;
+  }
+
+  #contact{
+    .title{
+      h1{
+        font-size: 50px;
+        margin-top: 75px;
+      }
+      p{
+        font-size: 18px;
+        margin-top: 68px;
+      }
+    }
+  }
+}

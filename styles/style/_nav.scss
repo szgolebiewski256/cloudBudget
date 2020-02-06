@@ -1,0 +1,119 @@
+@import "flexGrid";
+
+.fixed-up{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled{
+  background: $color-read !important;
+}
+
+.collapsed{
+  display: block !important;
+  height: 100vh;
+}
+
+.navbar{
+  background: transparent;
+  /*background: rgba(0,0,0,.3);*/
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-brand{
+    position: relative;
+    .brand-text{
+      position: absolute;
+      top: 50%;
+      -webkit-transform:translateY(-50%);
+      -ms-transform:translateY(-50%);
+      -o-transform:translateY(-50%);
+      transform: translateY(-50%);
+      margin-left: 15px;
+      text-transform: uppercase;
+    }
+  }
+  .navbar-button{
+    background: transparent;
+    border-color: transparent;
+    display: block;
+    .line{
+      background: #ffffff;
+      margin: 8px auto;
+      width: 40px;
+      height: 5px;
+      display: block;
+    }
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .navbar-button.is-active{
+    .line{
+      &:nth-child(2){
+        opacity: 0;
+      }
+      &:nth-child(1) {
+        -webkit-transform: translateY(13px) rotate(45deg);
+        -ms-transform: translateY(13px) rotate(45deg);
+        -o-transform: translateY(13px) rotate(45deg);
+        transform: translateY(13px) rotate(45deg);
+      }
+      &:nth-child(3){
+        -webkit-transform: translateY(-13px) rotate(-45deg);
+        -ms-transform: translateY(-13px) rotate(-45deg);
+        -o-transform: translateY(-13px) rotate(-45deg);
+        transform: translateY(-13px) rotate(-45deg);
+      }
+    }
+  }
+  .navbar-collapse{
+    display: flex;
+    flex-basis: 100%;
+    display: none;
+    .navbar-ul{
+      flex-direction: column;
+      display: flex;
+      list-style: none;
+      .navbar-link{
+        display: block;
+        padding: .5em 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .scroll-up{
+    height: 170px;
+  }
+  .scrolled{
+    height: 90px;
+  }
+  .navbar{
+    .navbar-button{
+      display: none;
+    }
+    .navbar-collapse{
+      flex-basis: auto;
+      display: block;
+      .navbar-ul{
+        flex-direction: row;
+        .navbar-link{
+          padding: .5em .9em;
+        }
+      }
+    }
+  }
+}

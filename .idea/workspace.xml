@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="faf72aba-e835-4670-a97d-5e52804049a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XJSz0On3yWd4BgROcHjLOQW9Ol" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="S:/Program Files/Ruby27-x64/bin/scss.bat" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\website\cloudBudget\src\image\card" />
+      <recent name="P:\website\cloudBudget\src\image\banner" />
+      <recent name="P:\website\cloudBudget\web" />
+      <recent name="P:\website\cloudBudget" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="faf72aba-e835-4670-a97d-5e52804049a8" name="Default Changelist" comment="" />
+      <created>1580762963105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580762963105</updated>
+      <workItem from="1580762965264" duration="38663000" />
+      <workItem from="1581013618406" duration="13663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="199" key="#Inspections" timestamp="1580847422888">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="199" key="#Inspections/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580847422888" />
+    <state x="702" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580763431276">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="702" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580763431276" />
+    <state x="543" y="240" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1580763335815">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="543" y="240" key="#com.intellij.ide.macro.MacrosDialog/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580763335815" />
+    <state x="398" y="313" key="EditFileWatcherDialog" timestamp="1580763367356">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="398" y="313" key="EditFileWatcherDialog/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580763367356" />
+    <state x="543" y="290" key="FileChooserDialogImpl" timestamp="1580763361259">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="543" y="290" key="FileChooserDialogImpl/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580763361259" />
+    <state x="265" y="177" key="SettingsEditor" timestamp="1580763370111">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="265" y="177" key="SettingsEditor/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580763370111" />
+    <state x="625" y="138" width="607" height="804" key="find.popup" timestamp="1581027920324">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="625" y="138" width="607" height="804" key="find.popup/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1581027920324" />
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1580840167335">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080/1920.0.1858.1080@0.0.1858.1080" timestamp="1580840167335" />
+  </component>
+</project>

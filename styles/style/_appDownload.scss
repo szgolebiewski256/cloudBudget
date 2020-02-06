@@ -1,0 +1,45 @@
+#appDownload{
+  .appDownload-header{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .appDownload-text{
+    /*text-align: justify;*/
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: .6px;
+    margin-top: 65px;
+  }
+  .appDownload-link{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    a{
+      margin-right: 20px;
+    }
+  }
+  .dFlex{
+    display: flex;
+    .imgRow{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      background-image: url('../../src/image/slider/slider-main.png'), url('../../src/image/slider/slider-left.png'), url('../../src/image/slider/slider-right.png');
+      background-size: 270px, 220px, 220px;
+      background-position: center, left, right;
+      background-repeat: no-repeat;
+      min-height: 300px;
+    }
+  }
+}
+
+@media (min-width: $screen-md) {
+  .imgRow{
+    background-size: 420px, 370px, 370px !important;
+  }
+}

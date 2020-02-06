@@ -1,0 +1,35 @@
+.btn{
+  padding: 10px 15px;
+  background: #ffffff;
+  color: #444444;
+  border-radius: 5px;
+  border: none;
+  &:hover{
+    opacity: .7;
+    cursor: pointer;
+  }
+}
+.btn-banner{
+  text-transform: uppercase;
+  padding: 5px 25px;
+  font-size: 15px;
+  color: $color-read;
+  display: inline-block;
+  margin: 55px auto 0;
+}
+.btn-submit{
+  background: $color-read;
+  color: #ffffff;
+  margin-left: 15px;
+  font-size: 20px;
+  padding: 20px 35px;
+  text-transform: uppercase;
+}
+
+@media (min-width: $screen-sm) {
+  .btn-banner{
+    padding: 15px 50px;
+    font-size: 25px;
+    margin: 85px auto 0;
+  }
+}
